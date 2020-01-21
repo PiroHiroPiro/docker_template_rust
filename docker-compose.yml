@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  rust:
+    build:
+      context: .
+      dockerfile: ./docker/rust/Dockerfile
+    container_name: docker_template_rust
+    environment:
+      - TZ=Japan
+    tty: true
+    volumes:
+      - ./source:/usr/src/source
+    working_dir: /usr/src/source
