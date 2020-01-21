@@ -15,6 +15,7 @@ Run rust:
 $ docker-compose run rust bash
 # rustc main.rs
 # ./main
+# cargo run
 ```
 
 ## Install
@@ -30,6 +31,12 @@ Build images:
 
 ```console
 $ docker-compose build
+```
+
+Initialize Cargo:
+
+```console
+$ docker-compose run rust cargo init
 ```
 
 ## Licence
