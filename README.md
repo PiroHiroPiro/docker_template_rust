@@ -13,8 +13,6 @@ Run rust:
 
 ```console
 $ docker-compose run rust bash
-# rustc main.rs
-# ./main
 # cargo run
 ```
 
